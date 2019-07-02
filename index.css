@@ -3,10 +3,19 @@
   font-family: 'uzura';
   src: url('/Users/sahokondo/Library/Fonts/uzura.ttf');
 }
+@font-face{
+    font-family: 'uhu';
+    src: url('/Users/sahokondo/Library/Fonts/UtsukushiFONT.otf');
+}
+@font-face{
+    font-family: 'maru';
+    src: url('/Users/sahokondo/Library/Fonts/fluffy-Gothic.ttf');
+}
+
 /* CSS Document */
 
 body{
-font-family: uzura;
+font-family: uhu;
 margin:0;
 color:#313131;
 }
@@ -18,6 +27,7 @@ header h1{
   display: inline-block;
   margin: 47px 0;
   text-shadow: 0 0 2px white;
+  font-family: 'maru';
 
 }
 header h1:before{
@@ -40,6 +50,25 @@ header h1:before{
 main{
      width: 100%;
 }
+
+.hello{
+    font-family: 'maru';
+}
+
+.sentence1{
+    line-height: 45px;
+}
+
+.kawaii{
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    font-family: 'maru';
+
+}
+
+
 div.title h2{
     position: relative;
     display: inline-block;
@@ -59,16 +88,23 @@ div.title h2:before{
     background-color: black;
     border-radius: 2px;
 }
+.sentence{
+    line-height: 30px;
+}
 
 span.color{
     background-color: pink;
+    font-family: 'maru';
 }
 span.color2{
     background-color: #FDF065;
+    font-family: 'maru';
 }
 span.color3{
     background-color: #72F8FC;
+    font-family: 'maru';
 }
+
 
 
 footer{
