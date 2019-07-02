@@ -38,7 +38,7 @@ header h1:before{
 
 /*****MAIN*****/
 main{
-     width: 100%;
+     width: 100%;
 }
 div.title h2{
     position: relative;
@@ -58,6 +58,16 @@ div.title h2:before{
     transform: translateX(-50%);
     background-color: black;
     border-radius: 2px;
+}
+
+span.color{
+    background-color: pink;
+}
+span.color2{
+    background-color: #FDF065;
+}
+span.color3{
+    background-color: #72F8FC;
 }
 
 
