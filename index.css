@@ -59,12 +59,27 @@ main{
     line-height: 45px;
 }
 
+table{
+    line-height: 30px;
+}
+
 .kawaii{
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 10px 0.5em;
+    font-family: 'maru';
+    font-size: 25px;
+
+
+}
+.kawaii1{
     background: #dfefff;
     box-shadow: 0px 0px 0px 5px #dfefff;
     border: dashed 2px white;
     padding: 0.2em 0.5em;
     font-family: 'maru';
+    font-size: 20px;
 
 }
 
@@ -72,7 +87,9 @@ main{
 div.title h2{
     position: relative;
     display: inline-block;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    line-height: 15px;
 }
 
 div.title h2:before{
