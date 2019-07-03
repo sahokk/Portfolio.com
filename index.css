@@ -59,6 +59,8 @@ main{
     line-height: 45px;
 }
 
+/*****PROFILE*****/
+
 table{
     line-height: 30px;
 }
@@ -83,6 +85,8 @@ table{
 
 }
 
+
+/*****INTRODUCE*****/
 
 div.title h2{
     position: relative;
@@ -122,7 +126,30 @@ span.color3{
     font-family: 'maru';
 }
 
+/*****LINKS*****/
+.kawaii3{
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 10px 0.5em;
+    font-family: 'maru';
+    font-size: 25px;
 
+
+}
+.kawaii2{
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    font-family: 'maru';
+    font-size: 20px;
+
+}
+
+
+
+/*****FOOTER*****/
 
 footer{
     font-size: 80%;
