@@ -1,102 +1,102 @@
 @charset "utf-8";
+
 @font-face {
-  font-family: 'uzura';
-  src: url('/Users/sahokondo/Library/Fonts/uzura.ttf');
+    font-family: 'uzura';
+    src: url('/Users/sahokondo/Library/Fonts/uzura.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: 'uhu';
     src: url('/Users/sahokondo/Library/Fonts/UtsukushiFONT.otf');
 }
-@font-face{
+
+@font-face {
     font-family: 'maru';
     src: url('/Users/sahokondo/Library/Fonts/fluffy-Gothic.ttf');
 }
 
 /* CSS Document */
-
-body{
-font-family: uhu;
-margin:0;
-color:#313131;
+body {
+    font-family: uhu;
+    margin: 0;
+    color: #313131;
 }
 
 /*****HEADER*****/
-header h1{
-  position: relative;
-  color: #333;
-  display: inline-block;
-  margin: 47px 0;
-  text-shadow: 0 0 2px white;
-  font-family: 'maru';
-
+header h1 {
+    position: relative;
+    color: #333;
+    display: inline-block;
+    margin: 47px 0;
+    text-shadow: 0 0 2px white;
+    font-family: 'maru';
+    font-size: 65px;
 }
-header h1:before{
-  content: "";
-  position: absolute;
-  background: #a9e1ff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  top: 50%;
-  border: dashed 1px white;
-  left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: -1;
-  box-shadow: 0px 0px 0px 5px #a9e1ff;
+
+header h1:before {
+    content: "";
+    position: absolute;
+    background: #ffcce5;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: 50%;
+    border: dashed 1px white;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    box-shadow: 0px 0px 0px 5px #ffcce5;
 }
 
 /*****MAIN*****/
-main{
-     width: 100%;
+main {
+    width: 100%;
 }
 
-.hello{
+.hello {
     font-family: 'maru';
 }
 
-.sentence1{
+.sentence1 {
     line-height: 45px;
 }
 
 /*****PROFILE*****/
-
-table{
+table {
     line-height: 30px;
 }
 
-.kawaii{
+.kawaii {
     background: #dfefff;
     box-shadow: 0px 0px 0px 5px #dfefff;
     border: dashed 2px white;
     padding: 10px 0.5em;
     font-family: 'maru';
     font-size: 25px;
-
-
 }
-.kawaii1{
+
+.kawaii1 {
     background: #dfefff;
     box-shadow: 0px 0px 0px 5px #dfefff;
     border: dashed 2px white;
     padding: 0.2em 0.5em;
     font-family: 'maru';
     font-size: 20px;
-
 }
 
-
 /*****INTRODUCE*****/
-
-div.title h2{
+div.title h2 {
     position: relative;
     display: inline-block;
     margin-bottom: 30px;
     margin-top: 50px;
-    line-height: 15px;
+    line-height: 30px;
+    padding-bottom: 5px;
+    font-size: 40px;
 }
 
-div.title h2:before{
+div.title h2:before {
     content: '';
     position: absolute;
     bottom: -15px;
@@ -109,24 +109,25 @@ div.title h2:before{
     background-color: black;
     border-radius: 2px;
 }
-.sentence{
+
+.sentence {
     line-height: 30px;
 }
 
-span.color{
+span.color {
     background-color: pink;
     font-family: 'maru';
 }
-span.color2{
+
+span.color2 {
     background-color: #FDF065;
     font-family: 'maru';
 }
-span.color3{
+
+span.color3 {
     background-color: #72F8FC;
     font-family: 'maru';
 }
-
-
 
 /*****MORE*****/
 /* .marumaru{
@@ -137,29 +138,30 @@ span.color3{
     border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
     font-family: 'maru';
 } */
-
 .hidden_box {
-    margin: 2em 0;/*前後の余白*/
+    margin: 2em 0;
+    /*前後の余白*/
     padding-bottom: 2em;
 }
 
 /*ボタン装飾*/
 .hidden_box label {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    border: 3px solid #ccc;
-    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #333230;
+    border: dashed 1px #333230;
+    border-radius: 3px;
+    transition: .4s;
     font-family: 'maru';
     font-size: 20px;
     overflow: hidden;
-    transition: .4s;
+    transition: .1s;
 }
 
 /*ボタンホバー時*/
 .hidden_box label:hover {
-    background: #b3e1ff;;
+    background: #ccc;
 }
 
 /*チェックは見えなくする*/
@@ -177,57 +179,56 @@ span.color3{
 }
 
 /*クリックで中身表示*/
-.hidden_box input:checked ~ .hidden_show {
-    padding: 10px 0;
+.hidden_box input:checked~.hidden_show {
+    padding: 10px;
+    padding-top: 40px;
     height: auto;
     opacity: 1;
 }
-.kawaii4{
+
+.kawaii4 {
     background: #cce6ff;
     box-shadow: 0px 0px 0px 5px #cce6ff;
     border: dashed 2px white;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.2em;
+    margin-bottom: 0.5em;
+    width: 70%;
     font-family: 'maru';
     font-size: 30px;
-
 }
 
-
-
 /*****LINKS*****/
-.kawaii3{
+.kawaii3 {
     background: #dfefff;
     box-shadow: 0px 0px 0px 5px #dfefff;
     border: dashed 2px white;
     padding: 10px 0.5em;
     font-family: 'maru';
     font-size: 25px;
-
-
 }
-.kawaii2{
+
+.kawaii2 {
     background: #dfefff;
     box-shadow: 0px 0px 0px 5px #dfefff;
     border: dashed 2px white;
     padding: 0.2em 0.5em;
     font-family: 'maru';
     font-size: 20px;
-
+    font-weight: bolder;
 }
 
-
-
 /*****FOOTER*****/
-
-footer{
+footer {
     font-size: 80%;
     width: 100%;
     text-align: center;
+    margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #313131;
 }
-footer small{
+
+footer small {
     color: #fdf5e6;
     letter-spacing: 5px;
 }
