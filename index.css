@@ -126,6 +126,74 @@ span.color3{
     font-family: 'maru';
 }
 
+
+
+/*****MORE*****/
+/* .marumaru{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100px;
+    border: 3px solid #ccc;
+    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+    font-family: 'maru';
+} */
+
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding-bottom: 2em;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border: 3px solid #ccc;
+    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+    font-family: 'maru';
+    font-size: 20px;
+    overflow: hidden;
+    transition: .4s;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #b3e1ff;;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+.kawaii4{
+    background: #cce6ff;
+    box-shadow: 0px 0px 0px 5px #cce6ff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    font-family: 'maru';
+    font-size: 30px;
+
+}
+
+
+
 /*****LINKS*****/
 .kawaii3{
     background: #dfefff;
