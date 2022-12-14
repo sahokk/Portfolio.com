@@ -51,7 +51,7 @@ header h1:before {
 
 /*****MAIN*****/
 main {
-    width: 100%;
+    width: 100%;
 }
 
 .hello {
@@ -100,7 +100,6 @@ div.title h2 {
     padding-bottom: 5px;
     font-size: 50px;
     color: #313131;
-    
 }
 
 /* div.title h2:before {
@@ -143,7 +142,7 @@ span.color3 {
 .hidden_box {
     margin: 2em 0;
     /*前後の余白*/
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 /*ボタン装飾*/
